@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ekusoft.alpatest.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/btn_min_height"
+                android:minWidth="@dimen/btn_min_width"
+                android:text="Service"
+                android:textSize="@dimen/activity_btn_font" />
+
+            <Button
+                android:id="@+id/buttonTableTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/btn_min_height"
+                android:minWidth="@dimen/btn_min_width"
+                android:text="Table Test"
+                android:textSize="@dimen/activity_btn_font" />
+
+            <Button
+                android:id="@+id/buttonBaiduSch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/btn_min_height"
+                android:minWidth="@dimen/btn_min_width"
+                android:text="Baidu Search"
+                android:textSize="@dimen/activity_btn_font" />
+
+            <Button
+                android:id="@+id/ButtonFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/btn_min_height"
+                android:minWidth="@dimen/btn_min_width"
+                android:text="FragmentTest"
+                android:textSize="@dimen/activity_btn_font" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>
+
